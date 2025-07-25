@@ -1,4 +1,4 @@
-# AryanXchange 💹
+# AryanXchange 
 
 A full-stack trading application built with the MERN stack (MongoDB, Express.js, React, Node.js). This project simulates a financial exchange platform, featuring a robust REST API backend and a dynamic, component-based React frontend.
 
@@ -15,7 +15,7 @@ A full-stack trading application built with the MERN stack (MongoDB, Express.js,
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Dynamic Frontend:** A responsive and interactive user interface built with **React.js**.
 - **Component-Based Architecture:** Modular frontend structure with reusable components like `Navbar`, `Footer`, `Pricing`, etc., for maintainability.
@@ -26,7 +26,7 @@ A full-stack trading application built with the MERN stack (MongoDB, Express.js,
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Frontend:**
   - React.js
@@ -42,7 +42,7 @@ A full-stack trading application built with the MERN stack (MongoDB, Express.js,
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 The backend provides the following REST API endpoints. They were tested using **Thunder Client**.
 
@@ -56,7 +56,7 @@ The backend provides the following REST API endpoints. They were tested using **
 
 ---
 
-## 🎯 Future Scope
+##  Future Scope
 
 - [ ] Integrate the official **Zerodha Kite Connect API** to fetch live data.
 - [ ] Implement user authentication and authorization using JSON Web Tokens (JWT).
@@ -66,7 +66,7 @@ The backend provides the following REST API endpoints. They were tested using **
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
