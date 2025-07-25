@@ -4,7 +4,7 @@ A full-stack trading application built with the MERN stack (MongoDB, Express.js,
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Features](#-features)
 - [Technology Stack](#-technology-stack)
