@@ -6,9 +6,9 @@ function Footer() {
       <div className="container border-top mt-5">
         <div className="row mt-5">
           <div className="col">
-            <img src="media/images/logo.svg" style={{ width: "50%" }} />
+            <img src="/media/images/logo.png" style={{ width: "50%" }} />
             <p>
-              &copy; 2010 - 2024, Not Zerodha Broking Ltd. All rights reserved.
+              &copy; 2010 - 2024, Not AryanXchange Broking Ltd. All rights reserved.
             </p>
           </div>
           <div className="col">
@@ -23,11 +23,11 @@ function Footer() {
             <br />
             <a href="">Careers</a>
             <br />
-            <a href="">Zerodha.tech</a>
+            <a href="">AryanXchange.tech</a>
             <br />
             <a href="">Press & media</a>
             <br />
-            <a href="">Zerodha cares (CSR)</a>
+            <a href="">AryanXchange cares (CSR)</a>
             <br />
           </div>
           <div className="col">
@@ -55,15 +55,15 @@ function Footer() {
         </div>
         <div className="mt-5 text-muted" style={{ fontSize: "14px" }}>
           <p>
-            Zerodha Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.:
-            INZ000031633 CDSL: Depository services through Zerodha Securities
+            AryanXchange Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.:
+            INZ000031633 CDSL: Depository services through AryanXchange Securities
             Pvt. Ltd. – SEBI Registration no.: IN-DP-100-2015 Commodity Trading
-            through Zerodha Commodities Pvt. Ltd. MCX: 46025 – SEBI Registration
-            no.: INZ000038238 Registered Address: Zerodha Broking Ltd.,
+            through AryanXchange Commodities Pvt. Ltd. MCX: 46025 – SEBI Registration
+            no.: INZ000038238 Registered Address: AryanXchange Broking Ltd.,
             #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School,
             J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For any
             complaints pertaining to securities broking please write to
-            complaints@zerodha.com, for DP related to dp@zerodha.com. Please
+            complaints@AryanXchange.com, for DP related to dp@AryanXchange.com. Please
             ensure you carefully read the Risk Disclosure Document as prescribed
             by SEBI | ICF
           </p>
