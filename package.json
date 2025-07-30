@@ -1,0 +1,10 @@
+{
+  "name": "aryanxchange-stock-platform",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm run build:backend && npm run build:frontend && npm run build:dashboard",
+    "build:backend": "cd backend && npm install",
+    "build:frontend": "cd frontend && npm install && npm run build",
+    "build:dashboard": "cd dashboard && npm install && npm run build"
+  }
+}
