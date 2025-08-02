@@ -1,11 +1,12 @@
-[build]
-  command = "npm run build"
-  publish = "frontend/build"
+# [[plugins]]
+#   package = "@netlify/plugin-functions-install-core"
 
-[functions]
-  directory = "backend"
+[build]
+  command = "npm install --legacy-peer-deps && npm run build"
+  publish = "frontend/build"
+  base = "frontend"
 
 [[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
+  from = "/*"
+  to = "/index.html"
   status = 200
