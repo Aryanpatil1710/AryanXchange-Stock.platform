@@ -3,7 +3,7 @@
 
 [build]
   command = "npm install --legacy-peer-deps && npm run build"
-  publish = "frontend/build"
+  publish = "build"
   base = "frontend"
 
   [build.environment]
