@@ -6,6 +6,9 @@
   publish = "frontend/build"
   base = "frontend"
 
+  [build.environment]
+  NODE_VERSION = "22"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
