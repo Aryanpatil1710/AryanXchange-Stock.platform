@@ -15,7 +15,7 @@ const uri = process.env.MONGO_URL;
 
 const app = express();
 
-app.use(cors());
+app.use(cors({ origin: "*" }));
 app.use(bodyParser.json());
 
 // app.get("/addHoldings", async (req, res) => {
@@ -195,6 +195,11 @@ app.get("/allHoldings", async (req, res) => {
 app.get("/allPositions", async (req, res) => {
   let allPositions = await PositionsModel.find({});
   res.json(allPositions);
+});
+
+app.get("/allOrders", async (req, res) => {
+  let allOrders = await OrdersModel.find({});
+  res.json(allOrders);
 });
 
 app.post("/newOrder", async (req, res) => {
